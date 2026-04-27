@@ -1,0 +1,73 @@
+# 🔹 Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Virtual environment
+
+venv/
+env/
+.venv/
+
+# 🔹 Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# 🔹 Environment variables
+
+.env
+
+# 🔹 Logs
+
+*.log
+
+# 🔹 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE files
+
+.vscode/
+.idea/
+
+# 🔹 Build files
+
+build/
+dist/
+*.egg-info/
+
+# 🔹 Model files (VERY IMPORTANT 🚨)
+
+*.pth
+*.pt
+*.ckpt
+
+# 🔹 Data folders (if large datasets)
+
+data/
+datasets/
+
+# 🔹 Results / outputs
+
+results/
+
+# 🔹 Temporary files
+
+tmp/
+temp/
+
+# 🔹 Python packaging
+
+pip-wheel-metadata/
+
+# 🔹 Requirements backup (optional)
+
+# requirements.txt
+
+# 🔹 Misc
+
+*.sqlite3
+*.db
