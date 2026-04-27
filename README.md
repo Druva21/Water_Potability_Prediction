@@ -516,21 +516,6 @@ This system enables **water utilities**, **environmental agencies**, and **publi
 
 ---
 
-## 📞 Citation & Acknowledgments
-
-### **Research Citation**
-```bibtex
-@article{water_potability_tabtransformer_2026,
-  title={Deep Learning for Water Potability Prediction: Explainable Transformers vs Classical Machine Learning},
-  author={Research Team},
-  journal={Water Quality AI Journal},
-  year={2026},
-  volume={1},
-  pages={1-25},
-  doi={10.1234/water-ai.2026.001}
-}
-```
-
 ### **Technical Acknowledgments**
 - **PyTorch Team**: Deep learning framework
 - **Scikit-learn**: Classical ML algorithms
@@ -539,7 +524,4 @@ This system enables **water utilities**, **environmental agencies**, and **publi
 
 ---
 
-*Documentation Version: 2.0*  
-*Research Grade: Publication Ready*  
-*Last Updated: Current Pipeline Execution*  
-*System Status: Production Validated*
+
