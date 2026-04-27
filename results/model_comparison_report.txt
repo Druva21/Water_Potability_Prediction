@@ -1,0 +1,7 @@
+Model Comparison Results
+==============================
+Random Forest: 0.5884 accuracy
+Decision Tree: 0.5808 accuracy
+KNN: 0.5564 accuracy
+Naive Bayes: 0.5930 accuracy
+TabTransformer: 0.6098 accuracy

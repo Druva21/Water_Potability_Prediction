@@ -1,0 +1,17 @@
+Water Potability Prediction - Summary Report
+==================================================
+
+Dataset Information:
+  Total samples: 3276
+  Features: 9
+  Target distribution: {0: 1998, 1: 1278}
+
+Model Performance:
+
+Pipeline Configuration:
+  data_cleaning: {'gain_params': {'hidden_dim': 64, 'epochs': 500}, 'outlier_params': {'contamination': 0.1}}
+  preprocessing: {'apply_pca': True, 'pca_components': 0.95}
+  normalization: {'method': 'ensemble', 'methods': ['quantile', 'copula', 'robust'], 'weights': [0.4, 0.3, 0.3]}
+  feature_extraction: {'autoencoder_params': {'latent_dim': 16, 'epochs': 50}, 'tabtransformer_params': {'embed_dim': 32, 'epochs': 30}, 'weights': [0.5, 0.5]}
+  model: {'embed_dim': 64, 'num_heads': 8, 'num_layers': 4, 'physics_weight': 0.1, 'epochs': 100}
+  evaluation: {'cv_folds': 5, 'compare_baselines': True}
